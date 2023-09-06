@@ -1,0 +1,16 @@
+:root{
+    --main-color: #0573ff;
+}
+.custom-header{
+    border-bottom: 0.7px solid #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.ch-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+}

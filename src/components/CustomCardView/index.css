@@ -1,0 +1,29 @@
+:root{
+    --color-green-text: #00DD00;
+}
+.custom-card-view{
+    border: 1px solid #dddddd;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ccv-icon{
+    width: 18px;
+}
+.ccv-box-header{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ccv-title{
+    display: inline-block;
+    padding-left: 5px;
+}
+.ccv-value{
+    font-size: 18px;
+    margin-top: 5px;
+}
