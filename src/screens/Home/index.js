@@ -11,7 +11,7 @@ export default function Home() {
   const name = "Nguyen Van";
   return (
     <div className="home">
-      <CustomHeader title={name} />
+      <CustomHeader titleHi={name} />
       <div className="home-thongke">
         <CustomCardView
           icon={cilTruck}

@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
 import Home from "./screens/Home";
-import Sales from "./screens/Sales";
+import Category from "./screens/Category";
 import Notification from "./screens/Notifications";
 import Setting from "./screens/Setting";
 import HomeIcon from "@mui/icons-material/Home";
@@ -19,7 +19,7 @@ export default function App() {
       <Routes>
         <Route path="/setting" element={<Setting />} />
         <Route path="/notification" element={<Notification />} />
-        <Route path="/sales" element={<Sales />} />
+        <Route path="/category" element={<Category />} />
         <Route index element={<Home />} />
         <Route path="/home" element={<Home/>}/>
         {/* <Route path="*" element={<NoPage/>}/> */}
@@ -39,9 +39,9 @@ export default function App() {
             onClick={() => nav("/home")}
           />
           <BottomNavigationAction
-            value="/sales"
+            value="/category"
             icon={<ViewInArRoundedIcon />}
-            onClick={() => nav("/sales")}
+            onClick={() => nav("/category")}
           />
           <BottomNavigationAction
             value="/notification"
