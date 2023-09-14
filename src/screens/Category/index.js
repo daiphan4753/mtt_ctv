@@ -1,22 +1,21 @@
 import React from "react";
 import "./index.css";
-import { data_category } from "../../data/dataCategory";
 import CustomHeader from "../../components/CustomHeader";
+import ProductBox from "../../components/ProductBox";
+import { data_product } from "../../data/dataProduct";
 
 export default function Category() {
-  const showlist = data_category.map((item) => (
-    <li className="cate-card" key={item.name}>
-      <div className="cate-img-box">
-        <img className="cate-img" src={item.src} alt="" />
-      </div>
-      <span className="cate-txt">{item.name}</span>
-    </li>
-  ));
   return (
     <div>
-      <CustomHeader title={"Category"} />
-      <div className="cate-show-list-container">
-        <ul className="csl-ul">{showlist}</ul>
+      <CustomHeader title={"Bán hàng"} showCart countValue={5} />
+      <div className="cate-product-container">
+        <ul className="cate-ul">
+          {data_product.map((item) => (
+            <li className="cate-li" key={item.name}>
+              <ProductBox src={item.src} name={item.name} price={item.price} />
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );

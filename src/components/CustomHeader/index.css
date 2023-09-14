@@ -1,16 +1,53 @@
-:root{
-    --main-color: #0573ff;
+:root {
+  --main-color: #0573ff;
 }
-.custom-header{
-    border-bottom: 0.7px solid #DDDDDD;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px;
+.custom-header {
+  border-bottom: 0.7px solid #dddddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
-.ch-titleHi{
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 5px;
+.ch-titleHi {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.header-title {
+  width: 80%;
+}
+.header-card {
+  width: 10%;
+  position: absolute;
+  right: 5%;
+  top: 10px;
+}
+.hc-icon-container {
+  width: 90%;
+  position: relative;
+}
+.hc-icon-box {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.hc-icon-number {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  right: -15%;
+  top: -5px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.hc-icon-number span {
+  font-size: 12px;
+  font-weight: 600;
+  top: 0;
+  left: 25%;
+  position: absolute;
+  color: white;
 }
