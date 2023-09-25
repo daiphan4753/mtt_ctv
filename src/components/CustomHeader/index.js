@@ -20,7 +20,12 @@ export default function CustomHeader(props) {
             <div className="hc-icon-box">
               <CIcon icon={cilCart} className="hc-icon" />
             </div>
-            {props.countValue && <div className="hc-icon-number"><span>{props.countValue}</span></div>}
+            {props.countValue && props.countValue> 0 ?
+              <div className="hc-icon-number">
+                <span>{props.countValue}</span>
+              </div>
+              : <div></div>
+            }
           </div>
         </div>
       )}

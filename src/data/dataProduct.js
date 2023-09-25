@@ -25,17 +25,17 @@ export const data_product = [
     src: "https://minhthongtech.com/public/uploads/media/pOAfiryte5yx5Eb6rwQm7iLB3J5qDndwAG1Vljkz.jpg",
   },
   {
-    name: "Camera IP Wifi F22FP",
+    name: "Camera IP Wifi F22FPc",
     price: "1.360.000",
     src: "https://minhthongtech.com/public/uploads/media/pOAfiryte5yx5Eb6rwQm7iLB3J5qDndwAG1Vljkz.jpg",
   },
   {
-    name: "Camera IP Wifi F22FEP",
+    name: "Camera IP Wifi F22FEPc",
     price: "1.535.000",
     src: "https://minhthongtech.com/public/uploads/media/pOAfiryte5yx5Eb6rwQm7iLB3J5qDndwAG1Vljkz.jpg",
   },
   {
-    name: "Camera IP Wifi F22P",
+    name: "Camera IP Wifi F22Pc",
     price: "1.120.000",
     src: "https://minhthongtech.com/public/uploads/media/pOAfiryte5yx5Eb6rwQm7iLB3J5qDndwAG1Vljkz.jpg",
   },

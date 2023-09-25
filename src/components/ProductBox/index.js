@@ -5,11 +5,11 @@ import { cilCart } from "@coreui/icons";
 
 export default function ProductBox(props) {
   return (
-    <div className="box-container">
+    <div className="box-container" onClick={props.productClick}>
       <img className="hls-img" src={props.src} alt="" />
       <span className="title-name">{props.name}</span>
       <span>{props.price}</span>
-      <button className="box-btn">Thêm vào giỏ</button>
+      <button onClick={props.btnClick} className="box-btn">Thêm vào giỏ</button>
     </div>
   );
 }
